@@ -1,6 +1,6 @@
 # Xenometon Portfolio Website 🚀
 
-My first modern, responsive portfolio website built with HTML, CSS, and JavaScript! <br>
+**My first modern, responsive portfolio website built with HTML, CSS, and JavaScript!** <br>
 _This website is primarily optimized for larger screen formats (Laptop/desktops), you may experience display issues on mobile devices._
 
 ## ✨ Features
@@ -26,47 +26,6 @@ portfolio-website/
 └── README.md               # This file
 ```
 
-## 🚀 Quick Start
-
-Simply open [`index.html`](index.html:1) in any modern browser, or use a local server:
-
-```bash
-# Python 3
-python -m http.server 8000
-
-# Node.js
-npx http-server
-```
-
-Then navigate to `http://localhost:8000`
-
-**No dependencies or build process required!**
-
-## 🎨 Customization
-
-### Update Personal Information
-- Edit contact info in the Contact section of [`index.html`](index.html:1)
-- Replace placeholder content in the About Me section
-- Update project descriptions and GitHub links
-
-### Add Real Images
-Replace emoji placeholders with actual images:
-```html
-<!-- Replace: -->
-<div class="project-placeholder">🤖</div>
-<!-- With: -->
-<img src="images/projects/ultron-ai.png" alt="Ultron AI Project">
-```
-
-### Customize Theme Colors
-Edit CSS variables in [`styles.css`](css/styles.css:1):
-```css
-:root {
-    --primary-color: #5B21B6;      /* Primary color */
-    --secondary-color: #059669;     /* Secondary color */
-    --accent-color: #EA580C;        /* Accent color */
-}
-```
 
 ## 🔧 Technologies
 
@@ -86,5 +45,6 @@ Edit CSS variables in [`styles.css`](css/styles.css:1):
 
 
 Made with ❤️ and ☕ by Xenometon
+
 
 

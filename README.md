@@ -1,7 +1,7 @@
 # Xenometon Portfolio Website 🚀
 
 My first modern, responsive portfolio website built with HTML, CSS, and JavaScript! <br>
-_This Website is primarily made for large screen formats (Laptop/desktops), might encounter issues on mobile screens._
+_This website is primarily optimized for larger screen formats (Laptop/desktops), you may experience display issues on mobile devices._
 
 ## ✨ Features
 
@@ -86,4 +86,5 @@ Edit CSS variables in [`styles.css`](css/styles.css:1):
 
 
 Made with ❤️ and ☕ by Xenometon
+
 

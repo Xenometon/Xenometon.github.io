@@ -1,6 +1,7 @@
 # Xenometon Portfolio Website 🚀
 
-A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
+My first modern, responsive portfolio website built with HTML, CSS, and JavaScript. <br>
+Website is primarily made for larger screen formats (Laptop/desktops), might encounter issues on mobile screens.
 
 ## ✨ Features
 
@@ -73,13 +74,6 @@ Edit CSS variables in [`styles.css`](css/styles.css:1):
 - **CSS3** - Variables, Flexbox, Grid, animations
 - **Vanilla JavaScript** - No frameworks or dependencies
 
-## 📝 Next Steps
-
-1. Add real images (profile photo, project screenshots)
-2. Update personal bio and contact information
-3. Replace placeholder blog posts with actual content
-4. Add favicon and social media links
-
 ## 👤 Author
 
 **Xenometon (Kunal Sinha)**
@@ -89,5 +83,6 @@ Edit CSS variables in [`styles.css`](css/styles.css:1):
 **Motto**: *Idea • Logic • Algorithm*
 
 ---
+
 
 Made with ❤️ and ☕ by Xenometon

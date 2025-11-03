@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Xenometon (Kunal Sinha) - Portfolio showcasing projects in Python, AI, Game Development, and Creative Coding">
+    <meta name="keywords" content="Xenometon, Kunal Sinha, Python Developer, AI, Game Development, Portfolio">
+    <meta name="author" content="Kunal Sinha (Xenometon)">
+    <title>Xenometon | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        // Apply dark theme immediately to prevent flash
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                document.documentElement.classList.add('dark-theme');
+                document.body.classList.add('dark-theme');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <!-- Animated Background Canvas -->
+    <canvas id="neural-network-bg"></canvas>
+    
+    <!-- Header & Navigation -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#home" class="nav-logo">Xenometon</a>
+                
+                <!-- Navigation Links -->
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-right">
+                    <!-- Theme Toggle Switch -->
+                    <div class="theme-switch-wrapper">
+                        <span class="theme-icon sun-icon">☀️</span>
+                        <label class="theme-switch" for="theme-toggle">
+                            <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+                            <span class="slider">
+                                <span class="slider-button"></span>
+                            </span>
+                        </label>
+                        <span class="theme-icon moon-icon">🌙</span>
+                    </div>
+                    
+                    <!-- Hamburger Menu -->
+                    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hey there, Welcome!</h1>
+                    <h2 class="hero-subtitle">I am Kunal Sinha</h2>
+                    <p class="hero-tagline">Also known as</p>
+                    <h2 class="hero-subtitle"><span class="highlight xenometon-name">Xenometon</span></h2>
+                    <p class="hero-tagline">Programmer | Problem Solver | Linux Elite</p>
+                    <p class="hero-description">Aspiring Polymath</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">// About me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate Programmer and a <strong>Cybernaut</strong> exploring the intersection of logic, algorithms, and creative problem-solving. Currently pursuing my education at <strong>NJIT</strong> in Electrical and Computer Engineering Technology, I specialize in Python development and have a keen interest in AI, Mechatronics, and Creative Coding.</p>
+                        
+                        <p>When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and building tools that make life easier. I love exploring new ideas and devising new solutions!</p>
+                        
+                        <div class="about-motto">
+                            <h3>My Motto</h3>
+                            <blockquote>"Idea, Logic, Algorithm" - Breaking down complex problems into elegant solutions.</blockquote>
+                        </div>
+                        
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <strong>Education:</strong>
+                                <p>New Jersey Institute of Technology (NJIT)</p>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Interests:</strong>
+                                <p>AI Research & Development, Mechatronics, Creative Coding, Algorithm Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">Explore my best work showcasing AI, creative coding, and game development</p>
+                
+                <div class="project-carousel">
+                    <button class="carousel-btn carousel-prev" aria-label="Previous project">‹</button>
+                    
+                    <div class="carousel-container">
+                        <div class="carousel-track">
+                            <!-- Project 1: Ultron-AI -->
+                            <article class="project-card">
+                                <div class="project-image project-ultron">
+                                    <div class="project-placeholder">🤖</div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">Ultron-AI</h3>
+                                    <div class="project-meta">
+                                        <span class="project-stars">⭐ 4 stars</span>
+                                    </div>
+                                    <p class="project-description">AI Assistant built with Python, demonstrating artificial intelligence and machine learning capabilities. Features natural language processing and intelligent conversation handling.</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">Python</span>
+                                        <span class="tech-tag">AI/ML</span>
+                                        <span class="tech-tag">NLP</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://github.com/Xenometon/Ultron-AI" target="_blank" rel="noopener noreferrer" class="btn btn-small">
+                                            View on GitHub →
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Project 2: Dimensional-Rift -->
+                            <article class="project-card">
+                                <div class="project-image project-dimensional">
+                                    <div class="project-placeholder">👾</div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">Dimensional-Rift</h3>
+                                    <div class="project-meta">
+                                        <span class="project-stars">⭐ 2 stars</span>
+                                    </div>
+                                    <p class="project-description">An arcade sketch figure created using Python Turtle graphics. Demonstrates creative visual programming and artistic coding techniques with complex geometric patterns.</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">Python</span>
+                                        <span class="tech-tag">Turtle Graphics</span>
+                                        <span class="tech-tag">Creative Coding</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://github.com/Xenometon/Dimensional-Rift" target="_blank" rel="noopener noreferrer" class="btn btn-small">
+                                            View on GitHub →
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Project 3: Space-Wars -->
+                            <article class="project-card">
+                                <div class="project-image project-spacewars">
+                                    <div class="project-placeholder">🚀</div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">Space-Wars</h3>
+                                    <div class="project-meta">
+                                        <span class="project-stars">Featured</span>
+                                    </div>
+                                    <p class="project-description">A simple yet engaging shooting game built with Python. Features interactive gameplay, collision detection, scoring system, and smooth animations.</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">Python</span>
+                                        <span class="tech-tag">Game Development</span>
+                                        <span class="tech-tag">Pygame</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://github.com/Xenometon/Space-Wars" target="_blank" rel="noopener noreferrer" class="btn btn-small">
+                                            View on GitHub →
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Project 4: Radiant-Flora -->
+                            <article class="project-card">
+                                <div class="project-image project-radiant">
+                                    <div class="project-placeholder">🌺</div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">Radiant-Flora</h3>
+                                    <div class="project-meta">
+                                        <span class="project-stars">Featured</span>
+                                    </div>
+                                    <p class="project-description">A colorful mystic flower created using Python's Turtle module. Features advanced creative coding with vibrant colors and intricate geometric patterns.</p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">Python</span>
+                                        <span class="tech-tag">Turtle Graphics</span>
+                                        <span class="tech-tag">Visual Art</span>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://github.com/Xenometon/Radiant-Flora" target="_blank" rel="noopener noreferrer" class="btn btn-small">
+                                            View on GitHub →
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    
+                    <button class="carousel-btn carousel-next" aria-label="Next project">›</button>
+                </div>
+                
+                <div class="carousel-indicators">
+                    <button class="indicator active" aria-label="Go to project 1"></button>
+                    <button class="indicator" aria-label="Go to project 2"></button>
+                    <button class="indicator" aria-label="Go to project 3"></button>
+                    <button class="indicator" aria-label="Go to project 4"></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-description">Technologies and tools I work with</p>
+                
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category">
+                        <h3 class="category-title">Programming Languages</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">C</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">HTML & CSS</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Technologies -->
+                    <div class="skill-category">
+                        <h3 class="category-title">Tools & Technologies</h3>
+                        <div class="skill-tags">
+                            <span class="tech-badge">Git & GitHub</span>
+                            <span class="tech-badge">Linux</span>
+                            <span class="tech-badge">VS Code</span>
+                            <span class="tech-badge">Graphics/HUD</span>
+                            <span class="tech-badge">AI/ML</span>
+                            <span class="tech-badge">Command Line</span>
+                        </div>
+                    </div>
+
+                    <!-- Specializations -->
+                    <div class="skill-category">
+                        <h3 class="category-title">Specializations</h3>
+                        <div class="skill-tags">
+                            <span class="tech-badge">Algorithm Design</span>
+                            <span class="tech-badge">Problem Solving</span>
+                            <span class="tech-badge">Game Development</span>
+                            <span class="tech-badge">Automation Scripts</span>
+                            <span class="tech-badge">Web Development</span>
+                            <span class="tech-badge">Creative Coding</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">Have a project in mind or want to collaborate? Let's connect!</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="info-item">
+                            <span class="info-icon">📧</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="mailto:kunal.sinha17439@gmail.com">kunal.sinha17439@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🎓</span>
+                            <div>
+                                <strong>Institution</strong>
+                                <p>New Jersey Institute of Technology</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://github.com/Xenometon" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                                <span class="social-icon">🔗</span> GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/kunal-sinha-ba343b38b/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                                <span class="social-icon">💼</span> LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Xenometon (Kunal Sinha). All rights reserved.</p>
+                <p class="footer-motto">Idea • Logic • Algorithm</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

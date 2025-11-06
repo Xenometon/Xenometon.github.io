@@ -5,15 +5,15 @@ _This website is primarily optimized for larger screen formats (Laptop/desktops)
 
 ## ✨ Features
 
-- **Light/Dark Theme Toggle** - with localStorage persistence
+- **Light/Dark Theme Toggle** - with local storage persistence
 - **Interactive Project Carousel** - with auto-play and manual controls
-- **Dynamic Neural network animation** - When you click on the neural network as they steadily appear from the edge of the screen, it will transmit a beautiful gradient pulse across the network.
+- **Dynamic Neural network animation** - When you click on the neural network as they steadily appear from the edge of the screen, it will transmit a beautiful gradient pulse across the network
 - **Smooth Scrolling Navigation** - with active section highlighting
 - **Scroll Animations** along with a scroll-to-top button
 - **Accessibility** - WCAG 2.1 compliant with semantic HTML and ARIA labels
 - **Mobile Hamburger Menu** - for touch-friendly navigation
-- **Glassmorphism Design** - A consistent design of frosted glass is followed across all the cards, creating a beautiful separation from foreground and background.
-- **Easter Egg** - If you hover on the text 'Xenometon' on the header and the main section, it will gradually turn to gold!
+- **Glassmorphism Design** - A consistent design of frosted glass is followed across all the cards, creating a beautiful separation from foreground and background
+- **Easter Egg** - If you hover on the text 'Xenometon' present on the header and the main section, it will gradually turn to gold!
 
 ## 📁 File Structure
 
@@ -46,6 +46,7 @@ portfolio-website/
 
 
 Made with ❤️ and ☕ by Xenometon
+
 
 
 
